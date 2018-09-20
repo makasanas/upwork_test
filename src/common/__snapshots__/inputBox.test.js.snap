@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a input commone components 1`] = `
+<div
+  className="input-box"
+>
+  <div
+    className="itemName"
+  />
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;

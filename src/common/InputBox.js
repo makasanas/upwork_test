@@ -8,7 +8,7 @@ class InputBox extends Component{
     render(){
         return(
             <div className="input-box">
-               <div className="itemName">{this.props.title ? this.props.title:''}</div>
+                <div className="itemName">{this.props.title ? this.props.title:''}</div>
                 <input type="text" name={this.props.name} value={this.props.value} onChange={(e)=>this.props.onUpdate(e,"inputbox")}/>
             </div>
         );

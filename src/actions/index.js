@@ -7,6 +7,7 @@ const databaseRef = firebase.database().ref();
 export const usersRef = databaseRef.child("users");
 
 export const addUpdateUser = (newUser,id) => async dispatch => {
+	console.log(newUser);
 	if(id){
 		usersRef.child(id).set(newUser);
 		dispatch({
